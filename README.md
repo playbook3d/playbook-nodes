@@ -14,8 +14,8 @@ This repository provides custom nodes for ComfyUI that allow you to seamlessly i
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/playbookvr/playbook-nodes.git
-
+   git clone https://github.com/playbook3d/playbook-nodes.git
+   
 ## Install
 Copy the contents of this repository into your custom_nodes folder within your ComfyUI installation directory.
 
