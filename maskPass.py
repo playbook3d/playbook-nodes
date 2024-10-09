@@ -3,6 +3,8 @@ import numpy as np
 import torch
 import requests
 from io import BytesIO
+import hashlib
+import time
 
 class MaskRenderPass:
     def __init__(self):
@@ -15,6 +17,12 @@ class MaskRenderPass:
                 "api_key": ("STRING", { "multiline": False })
             },
         }
+
+    @classmethod
+    def IS_CHANGED(s, image):
+        # always update
+        m = hashlib.sha256().update(str(time.time()).encode("utf-8"))
+        return m.digest().hex()
 
     RETURN_TYPES = ("IMAGE", "STRING", "STRING", "STRING", "STRING", "STRING", "STRING", "STRING", "STRING")
     RETURN_NAMES = ("Mask", "Color 1", "Color 2", "Color 3", "Color 4", "Color 5", "Color 6", "Color 7", "Color 8")

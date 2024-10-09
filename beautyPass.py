@@ -3,6 +3,8 @@ import numpy as np
 import torch
 import requests
 from io import BytesIO
+import hashlib
+import time
 
 class BeautyRenderPass:
     def __init__(self):
@@ -15,6 +17,12 @@ class BeautyRenderPass:
                 "api_key": ("STRING", { "multiline": False })
             },
         }
+
+    @classmethod
+    def IS_CHANGED(s, image):
+        # always update
+        m = hashlib.sha256().update(str(time.time()).encode("utf-8"))
+        return m.digest().hex()
 
     RETURN_TYPES = ("IMAGE",)
     RETURN_NAMES = ("Beauty",)
