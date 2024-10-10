@@ -1,4 +1,6 @@
-# Playbook3D Render Nodes for ComfyUI
+# Playbook3D Nodes for ComfyUI
+
+![image](https://github.com/user-attachments/assets/499d84d5-6d01-4eaf-88bd-5cd7af773903)
 
 This repository provides custom nodes for ComfyUI that allow you to seamlessly integrate Playbook3D renders into your workflows.
 
