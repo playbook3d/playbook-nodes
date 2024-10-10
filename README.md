@@ -44,4 +44,4 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 This project is licensed under the MIT License.
 
 ## Contact:
-For questions or support, please contact skylar@playbook3d.com or join the Playbook3D Discord server.   
+For questions or support, please contact support@playbook3d.com or join the Playbook3D Discord server.   
