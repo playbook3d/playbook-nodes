@@ -1,0 +1,14 @@
+[project]
+name = "playbook-nodes"
+description = "Custom nodes for connecting 3D scenes and ComfyUI workflows."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/playbook3d/playbook-nodes"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "playbook"
+DisplayName = "playbook-nodes"
+Icon = ""
