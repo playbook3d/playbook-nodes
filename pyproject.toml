@@ -9,6 +9,6 @@ Repository = "https://github.com/playbook3d/playbook-nodes"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "playbook"
 DisplayName = "playbook-nodes"
 Icon = ""
